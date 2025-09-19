@@ -34,6 +34,9 @@ TARGET_OTA_ASSERT_DEVICE := garnet
 # TWRP specific build flags
 TW_FRAMERATE := 120
 
+# Version
+TW_DEVICE_VERSION := TegarXLu | GARNET >a14<
+
 # Vibrator
 ifeq ($(FIXED_HAPTICS),1)
   TW_SUPPORT_INPUT_AIDL_HAPTICS := true
